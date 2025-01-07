@@ -6,8 +6,8 @@ import "../styles/global.css";
 const noto = Noto_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Title", // TODO: Change the title
-  description: "Description" // TODO: Change the description
+  title: "Team section",
+  description: "A team section with card for each member of the team"
 };
 
 export default function RootLayout({
