@@ -21,7 +21,8 @@ const TeamSection: React.FC<TeamSectionProps> = props => {
           and expertise to the table.
         </p>
       </header>
-      <div className='grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4'>
+      {/* <div className='grid grid-cols-1 justify-items-center gap-12 md:grid-cols-2 md:gap-x-8 md:gap-y-16 lg:max-w-[1440px] lg:grid-cols-4'> */}
+      <div className='flex flex-row flex-wrap justify-center justify-items-center gap-12 md:gap-x-8 md:gap-y-16 lg:max-w-[1440px]'>
         {data.map((teamMember, index) => (
           <TeamCard
             key={index}
